@@ -87,3 +87,4 @@ def smallest(arr,k):
             left+=1
     return 0 if min_len==float('inf') else min_len
 print(smallest([2,3,1,4,2],6))  
+#leetcode:209,904,713
