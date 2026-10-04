@@ -150,5 +150,3 @@ head = new_head
 print("Insertion Before:")
 traverse(head)
 #Deletion at begin
-
-
