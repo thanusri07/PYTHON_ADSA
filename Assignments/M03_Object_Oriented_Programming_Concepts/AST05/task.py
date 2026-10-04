@@ -6,7 +6,6 @@ class Payment(ABC):
 class UPI(Payment):
     def pay(self, amount):
         print("Payment of", amount, "successful using UPI")
-
 class CreditCard(Payment):
     def pay(self, amount):
         print("Payment of", amount, "successful using Credit Card")
